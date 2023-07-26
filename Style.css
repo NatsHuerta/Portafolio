@@ -1,0 +1,185 @@
+#fondo {
+    background-image: url(imagenes/img_fondo.jpg);
+    /* height: 100%;
+    width: 100%; */
+    margin: auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: auto;
+}
+
+.texto1 {
+    color: dimgray;
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+#boton_modal {
+    -bs-btn-color: var(--bs-btn-active-color);
+    --bs-btn-bg: #fdcae1;
+    --bs-btn-border-color: #fdcae1;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #fdcae1;
+    --bs-btn-hover-border-color: rgba(171, 138, 163, 0.25);
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #181717;
+    --bs-btn-active-bg: #fdcae1;
+    --bs-btn-active-border-color: #fdcae1;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #fdcae1;
+    --bs-btn-disabled-border-color: #fdcae1;
+}
+
+.badge {
+    font-size: .75em;
+    font-weight: font-weight-bold;
+    color: white;
+    background-color: #F06292;
+    align-items: center;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    text-align: center;
+}
+
+.dark-color {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.foto_perfil {
+    float: left;
+    margin: auto;
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: var(--bs-progress-bar-color);
+    text-align: center;
+    white-space: nowrap;
+    background-color: #F06292;
+    transition: var(--bs-progress-bar-transition);
+}
+
+.Texto_habilidades {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul.lista {
+    display: block;
+    text-align: initial;
+}
+
+.texto {
+    text-align: justify;
+}
+
+.text-body-secondary {
+    --bs-text-opacity: 1;
+    color: #f8f9fa !important
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.d-flex {
+    display: flex !important;
+    justify-content: space-evenly;
+}
+
+.justify-content-end {
+    justify-content: center !important;
+    color: #f8f9fa;
+}
+
+.bi {
+    content: "\f437";
+    color: beige;
+    width: auto;
+}
+
+#secciones {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.custom-popover {
+    --bs-popover-max-width: 200px;
+    --bs-popover-border-color: var(--bs-primary);
+    --bs-popover-header-bg: var(--bs-primary);
+    --bs-popover-header-color: var(--bs-white);
+    --bs-popover-body-padding-x: 1rem;
+    --bs-popover-body-padding-y: .5rem;
+}
+
+#proyectos {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+#testimonios {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+/* Tarjeta 3D para testimonios */
+.tarjeta-wrap {
+    margin: 10px;
+    perspective: 800;
+}
+
+.tarjeta {
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .7s ease;
+    box-shadow: 0px 6px 15px -3px rgb(0 0 0 / 65%);
+    background: #ffe5f0;
+}
+
+.adelante {
+    backface-visibility: hidden;
+    background-image: url(imagenes/testimonios_imagen.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.atras {
+    position: absolute;
+    backface-visibility: hidden;
+    transform: perspective(600px) rotateY(180deg);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    color: #181717;
+    margin: 12px;
+
+}
+
+.tarjeta-wrap:hover .tarjeta {
+    transform: rotateY(180deg);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
