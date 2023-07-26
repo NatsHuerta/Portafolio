@@ -1,7 +1,7 @@
 # ¡Bienvenidos a mi proyecto realizado en Tecnolochicas PRO Summer Camp!
 
 Me emociona presentarles esta página web que he creado con mucho entusiasmo. Se trata de un sitio responsivo, lo que significa que se adapta perfectamente a cualquier tamaño de pantalla, permitiendo una experiencia de usuario fluida y agradable.
-![](imagen.jpg)
+ ![Imagen](imagenes/imagen.jpg)
 
 ****
 ## Portafolio Responsivo con Bootstrap 5
@@ -23,7 +23,8 @@ Puedes consultar mi portafolio en el siguiente link:
  4. Motivaciones:
  ![Testimonios](imagenes/imagen4.JPG)
  5. Contacto:
- ![Contacto](imagenes/imagen5.JPG)
+
+ ![Contacto](imagenes/imagen5.jpg)
 
 ## Tecnologías
 
