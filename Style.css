@@ -183,3 +183,9 @@ ul.lista {
     justify-content: center;
     align-items: center;
 }
+.carousel-control-next-icon {
+    background-image: url(imagenes/flecha1.png);
+}
+.carousel-control-prev-icon {
+    background-image: url(imagenes/flecha2.png);
+}
